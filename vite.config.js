@@ -1,9 +1,11 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
+import babel from "vite-plugin-babel"
+// import plugin from "./plugin.js";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(),babel()],
   server: {
     host: '0.0.0.0', //ip host
     port: 80,

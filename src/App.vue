@@ -6,7 +6,8 @@
 
 <script setup>
   const handleClick = ()=> {
-    console.log('开发！！！')
+    const a = 9 - 1
+    console.log( a,'babel开发！！！')
   }
 </script>
 <style scoped>
